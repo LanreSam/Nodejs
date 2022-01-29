@@ -18,10 +18,10 @@
 // }, 5000);
 
 
-const sayHi = (name) => {
-    console.log(`Hello there ${name}`);
-}
+const names = require('./4-names');
+const sayHi = require('./5-utils');
+const data = require('./details');
 
-setInterval (() => {
-    sayHi(`Lanre`)
-}, 1000);
+
+sayHi(names.lanre);
+console.log(data.location);
