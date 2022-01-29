@@ -9,3 +9,8 @@ else{
 }
 
 console.log(`This is my first node application!!!`);
+console.log(__dirname);
+
+setInterval(()=> {
+    console.log(`Hacked🐱‍💻`);
+}, 5000);
