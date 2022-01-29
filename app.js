@@ -1,27 +1,19 @@
-// const amount = 12;
+const os = require('os');
 
-// if (amount < 10) {
-//     console.log('Small number');
-// }
-
-// else{
-//     console.log('Large number');
-// }
-
-// console.log(`This is my first node application!!!`);
-// console.log(__dirname);
-// console.log(__filename);
+//info about current user
+const user = os.userInfo();
+console.log(user);
 
 
-// setInterval(()=> {
-//     console.log(`Hacked🐱‍💻`);
-// }, 5000);
+//info about PC uptime
+console.log(`The system uptime is: ${os.uptime()} seconds`);
 
+//info about current OS
+const currentOS = {
+    name: os.type(),
+    release: os.release(),
+    totalmem: os.totalmem(),
+    freemem: os.freemem()
+}
 
-const names = require('./4-names');
-const sayHi = require('./5-utils');
-const data = require('./details');
-
-
-sayHi(names.lanre);
-console.log(data.location);
+console.log(currentOS);
