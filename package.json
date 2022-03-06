@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/LanreSam/Nodejs/issues"
   },
-  "homepage": "https://github.com/LanreSam/Nodejs#readme"
+  "homepage": "https://github.com/LanreSam/Nodejs#readme",
+  "dependencies": {
+    "botstrap": "^0.20.1"
+  }
 }
