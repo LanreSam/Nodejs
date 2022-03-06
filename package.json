@@ -19,5 +19,11 @@
   "homepage": "https://github.com/LanreSam/Nodejs#readme",
   "dependencies": {
     "botstrap": "^0.20.1"
+  },
+  "scripts":{
+    "start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
